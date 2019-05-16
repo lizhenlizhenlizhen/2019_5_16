@@ -1,0 +1,234 @@
+
+body{
+    margin: 0;
+}
+/*header*/
+.header{
+    width:1200px;
+    height: 75px;
+    margin:auto;
+}
+.header .logo{
+    float: left;
+}
+.header .code{
+    float: right;
+    margin-right: 20px;
+}
+/*导航栏*/
+.box{
+    width: 100%;
+    height: 40px;
+    background-color: #3b8de3;
+}
+.box .con{
+    width:1200px;
+    height:100%;
+    margin: auto;
+    line-height: 38px;
+
+}
+.box .con .left{
+    width: 700px;
+    height: 100%;
+    margin-left: -285px;
+    float: left;
+}
+.box .con .right{
+    width: 300px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.box .con a{
+    height: 40px;
+    float: left;
+    text-decoration: none;
+    border-top: 2px solid #3b8de3;
+    text-align: center;
+    color: #ffffff;
+}
+.box .con .left a{
+    width:20%;
+}
+.box .con .right a{
+    width: 30%;
+}
+.box .con .left .active{
+    background-color: #ffffff;
+    color: #3b8de3;
+    border-top: 2px solid orange;
+}
+.box a:hover{
+    background-color: #ffffff;
+    color: #3b8de3;
+    border-top: 2px solid orange;
+}
+.box .login{
+    background: url("../pic/img.png") no-repeat -315px -501px;
+}
+.box .san{
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid #ffffff;
+    border-left: 5px solid #3b8de3;
+    border-right: 5px solid #3b8de3;
+    position: absolute;
+    right: 190px;
+    top: 93px;
+}
+.city{
+    width:1200px;
+    margin: 10px auto;
+    font-size: 12px;
+}
+.city .hot a{
+    float: left;
+    text-decoration: none;
+    margin:0px 7px;
+    color: #3b8de3;
+}
+.city .hot a:hover{
+    color: orange;
+}
+.city span{
+    color: #000000;
+    float:left;
+}
+/*轮播图*/
+.wheel-box{
+    width: 100%;
+    height: 380px;
+    margin-top: 35px;
+    position: relative;
+    border: 1px solid #ffffff;
+}
+.wheel-box .banner1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0px;
+    background: url("../pic/banner1.png") no-repeat left;
+}
+.wheel-box .banner2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0px;
+    z-index: 2;
+    background: url("../pic/banner2.png") no-repeat left;
+}
+.wheel-box .bots{
+    position: absolute;
+    right: 170px;
+    bottom: 10px;
+    width: 120px;
+    height: 10px;
+    z-index: 10;
+    float: left;
+}
+.wheel-box .bots .btn1{
+    width: 40px;
+    height: 4px;
+    background-color: #000000;
+    position: absolute;
+    left: 5px;
+    top:1px;
+}
+.wheel-box .bots .btn2{
+    width: 40px;
+    height: 4px;
+    background-color: #000000;
+    position: absolute;
+    left: 55px;
+    top:1px;
+}
+.wheel-box .bots .btn1.select{
+    background-color: orange;
+}
+/*热门航线*/
+.hotline{
+    width: 1200px;
+    height: 450px;
+    margin: 20px auto;
+}
+.hotline .top{
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #cccccc;
+}
+.hotline .top .left{
+    font-size: 26px;
+    float: left;
+    color: #5C5B58;
+}
+.hotline .top .right {
+    font-size: 20px;
+    float: right;
+}
+
+.hotline .top .right a {
+
+    text-decoration: none;
+    color: #555;
+    float: left;
+    padding: 5px 20px 14px;
+}
+.hotline .top .right .contry{
+    background-color: #a6e3fc;
+    color: #3b8de3;
+    border-bottom: 1px solid #3b8de3;
+}
+.hotline .top .right .contry:hover{
+    background-color: #a6e3fc;
+    color: #3b8de3;
+    border-bottom: 1px solid #3b8de3;
+}
+.hotline .top .right a:hover{
+    color: #3b8de3;
+    border-bottom: 2px solid #3b8de3;
+}
+.hotline .bottom{
+    width: 100%;
+    height: 310px;
+}
+.hotline .bottom .one {
+    width: 225px;
+    height: 140px;
+    float: left;
+    text-align: center;
+    color: #0055AA;
+    margin: 15px 15px 0px 0px;
+    background: url("../pic/carl.png") no-repeat;
+}
+.hotline .bottom .one .content{
+    margin: auto;
+}
+.hotline .bottom .one .content .chufa{
+    margin: 10px auto;
+}
+.hotline .bottom .one .content .date{
+    margin: 10px auto 20px;
+}
+.hotline .bottom .one .content .price{
+    margin: 25px auto 15px;
+    font-size: 14px;
+}
+.hotline .bottom .one .content .price span{
+    color: orange;
+}
+.hotline .bottom .one .content .price .money{
+    font-size: 14px;
+}
+.hotline .bottom .one .content .price .number{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
